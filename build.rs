@@ -1,4 +1,4 @@
-const COMMANDS: &[&str] = &["ping"];
+const COMMANDS: &[&str] = &["disable_screen_capture", "enable_screen_capture"];
 
 fn main() {
   tauri_plugin::Builder::new(COMMANDS)

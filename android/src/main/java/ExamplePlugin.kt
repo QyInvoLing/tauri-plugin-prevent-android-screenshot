@@ -9,10 +9,6 @@ import app.tauri.plugin.Plugin
 import app.tauri.plugin.Invoke
 import android.view.WindowManager
 
-@InvokeArg
-class PingArgs {
-  var value: String? = null
-}
 
 @TauriPlugin
 class ExamplePlugin(private val activity: Activity): Plugin(activity) {
